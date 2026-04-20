@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-04-11 - 灵感日报</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f8f9fa; color: #1a1a2e; line-height: 1.7;
+}
+a { color: #4361ee; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #fff; padding: 1.5rem 0; margin-bottom: 2rem;
+}
+header .container { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+header h1 { font-size: 1.5rem; font-weight: 600; }
+header a { color: #e2e8f0; }
+header a:hover { color: #fff; }
+.card {
+    background: #fff; border-radius: 12px; padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.content h1 { font-size: 1.6rem; margin: 1.5rem 0 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+.content h2 { font-size: 1.3rem; margin: 1.8rem 0 0.8rem; color: #1a1a2e; }
+.content h3 { font-size: 1.1rem; margin: 1.2rem 0 0.6rem; }
+.content p { margin: 0.8rem 0; }
+.content ul, .content ol { margin: 0.8rem 0 0.8rem 1.5rem; }
+.content li { margin: 0.3rem 0; }
+.content strong { color: #0f3460; }
+.content blockquote {
+    border-left: 4px solid #4361ee; background: #f0f4ff;
+    padding: 0.8rem 1.2rem; margin: 1rem 0; border-radius: 0 8px 8px 0;
+    font-size: 0.9rem; color: #555;
+}
+.content hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.5rem 0; }
+.content table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+.content th, .content td { border: 1px solid #e2e8f0; padding: 0.5rem 0.8rem; text-align: left; }
+.content th { background: #f0f4ff; font-weight: 600; }
+.content tr:hover { background: #fafbff; }
+.content code { background: #f0f4ff; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.88em; }
+.content a { color: #4361ee; }
+.nav-sidebar {
+    position: fixed; top: 0; right: 0; width: 200px; height: 100vh;
+    overflow-y: auto; background: #fff; border-left: 1px solid #e2e8f0;
+    padding: 1rem 0.5rem; font-size: 0.8rem; z-index: 10;
+    transform: translateX(100%); transition: transform 0.3s;
+}
+.nav-sidebar.open { transform: translateX(0); }
+.nav-sidebar a { display: block; padding: 0.2rem 0.5rem; color: #555; }
+.nav-sidebar a:hover { background: #f0f4ff; border-radius: 4px; }
+.nav-toggle {
+    position: fixed; top: 50%; right: 0; transform: translateY(-50%);
+    background: #1a1a2e; color: #fff; border: none; padding: 0.5rem 0.3rem;
+    border-radius: 8px 0 0 8px; cursor: pointer; z-index: 11;
+    font-size: 0.8rem; writing-mode: vertical-rl;
+}
+@media (max-width: 768px) {
+    .container { padding: 1rem; }
+    .card { padding: 1.2rem; }
+    .content table { font-size: 0.8rem; display: block; overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+    <h1>一人公司灵感日报</h1>
+    <a href="index.html">&larr; 返回列表</a>
+  </div>
+</header>
+<div class="container">
+  <div class="card">
+    <div class="content" id="content"></div>
+  </div>
+</div>
+<button class="nav-toggle" onclick="document.querySelector('.nav-sidebar').classList.toggle('open')">日期</button>
+<nav class="nav-sidebar"><a href="2026-04-20.html">2026-04-20</a>
+<a href="2026-04-19.html">2026-04-19</a>
+<a href="2026-04-18.html">2026-04-18</a>
+<a href="2026-04-17.html">2026-04-17</a>
+<a href="2026-04-16.html">2026-04-16</a>
+<a href="2026-04-15.html">2026-04-15</a>
+<a href="2026-04-14.html">2026-04-14</a>
+<a href="2026-04-13.html">2026-04-13</a>
+<a href="2026-04-12.html">2026-04-12</a>
+<a href="2026-04-11.html">2026-04-11</a>
+<a href="2026-04-10.html">2026-04-10</a>
+<a href="2026-04-09.html">2026-04-09</a>
+<a href="2026-04-08.html">2026-04-08</a>
+<a href="2026-04-07.html">2026-04-07</a>
+<a href="2026-04-06.html">2026-04-06</a>
+<a href="2026-04-05.html">2026-04-05</a>
+<a href="2026-04-04.html">2026-04-04</a>
+<a href="2026-04-03.html">2026-04-03</a>
+<a href="2026-04-02.html">2026-04-02</a>
+<a href="2026-04-01.html">2026-04-01</a>
+<a href="2026-03-31.html">2026-03-31</a>
+<a href="2026-03-30.html">2026-03-30</a>
+<a href="2026-03-29.html">2026-03-29</a>
+<a href="2026-03-28.html">2026-03-28</a>
+<a href="2026-03-27.html">2026-03-27</a>
+<a href="2026-03-26.html">2026-03-26</a>
+<a href="2026-03-25.html">2026-03-25</a>
+<a href="2026-03-24.html">2026-03-24</a>
+<a href="2026-03-23.html">2026-03-23</a>
+<a href="2026-03-22.html">2026-03-22</a>
+<a href="2026-03-21.html">2026-03-21</a>
+<a href="2026-03-20.html">2026-03-20</a>
+<a href="2026-03-19.html">2026-03-19</a>
+<a href="2026-03-18.html">2026-03-18</a>
+<a href="2026-03-17.html">2026-03-17</a>
+<a href="2026-03-16.html">2026-03-16</a>
+<a href="2026-03-15.html">2026-03-15</a>
+<a href="2026-03-14.html">2026-03-14</a>
+<a href="2026-03-13.html">2026-03-13</a>
+<a href="2026-03-12.html">2026-03-12</a>
+<a href="2026-03-11.html">2026-03-11</a>
+<a href="2026-03-10.html">2026-03-10</a>
+<a href="2026-03-09.html">2026-03-09</a>
+<a href="2026-03-08.html">2026-03-08</a>
+<a href="2026-03-07.html">2026-03-07</a>
+<a href="2026-03-06.html">2026-03-06</a>
+<a href="2026-03-05.html">2026-03-05</a>
+<a href="2026-03-04.html">2026-03-04</a>
+<a href="2026-03-03.html">2026-03-03</a>
+<a href="2026-03-02.html">2026-03-02</a>
+<a href="2026-03-01.html">2026-03-01</a>
+<a href="2026-02-28.html">2026-02-28</a>
+<a href="2026-02-27.html">2026-02-27</a>
+<a href="2026-02-26.html">2026-02-26</a>
+<a href="2026-02-25.html">2026-02-25</a>
+<a href="2026-02-24.html">2026-02-24</a>
+<a href="2026-02-23.html">2026-02-23</a>
+<a href="2026-02-22.html">2026-02-22</a>
+<a href="2026-02-21.html">2026-02-21</a>
+<a href="2026-02-20.html">2026-02-20</a></nav>
+<script id="raw-md" type="text/markdown"># 一人公司灵感日报 · 2026-04-11
+
+&gt; 生成时间：2026-04-11 21:37 北京时间
+&gt; 数据源：hn_show(75) · hn_ask(44) · hn_story(1) · r_sideproject(58) · r_saas(72) · r_indiehackers(5) · r_entrepreneur(8) · r_microsaas(65) · r_rideAlong(23) · r_smallbusiness(56) · r_startups(26) · r_freelance(0) · v2ex_create(11) · v2ex_ideas(3) · producthunt(0)
+&gt; 窗口：过去 24h · 扫描 330 条 · 保留 53 条（score ≥ 3.0）
+&gt; AI 分析：deepseek-chat
+
+---
+
+## 一人公司机会 Top 10
+
+- **[1]** 小型搬家公司&quot;报价 + 调度 + 客评&quot;SaaS，$69/月 — *蓝领数字化，移动端优先*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-01)
+- **[2]** AI 把手写白板照片转成结构化笔记 iOS App，买断 $9.99 — *会议效率工具*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-02)
+- **[3]** Chrome 扩展：把任意表格网页导出为 Airtable/Notion，$12/年 — *数据整理效率*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-03)
+- **[4]** 独立教师&quot;作业批改 + AI 评语建议&quot;工具，$15/月 — *教育科技垂直*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-04)
+- **[5]** 面向独立保险代理的&quot;客户生日/续保提醒&quot;工具，$19/月 — *保险渠道维护工具*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-05)
+- **[6]** 为印度家庭量身打造的家庭开支追踪器，₹199/月 — *深入特定文化地域的细分市场解决通用工具无法满足的痛点*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-06)
+- **[7]** 面向婚庆策划的&quot;客户需求收集 + 预算跟踪&quot;，$39/月 — *高客单价行业整合工具*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-07)
+- **[8]** 从自身需求出发为小型现场服务企业开发的管理软件 — *源于真实业务痛点经过自身验证*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-08)
+- **[9]** 给小型洗车店做&quot;会员 + 预约 + 营销&quot;SaaS，$49/月 — *线下服务标准流程*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-09)
+- **[10]** 面向驾校的&quot;学员练车预约 + 教练评分&quot;SaaS，¥199/月 — *驾培行业信息化空白*。[原文](https://www.reddit.com/r/microsaas/comments/stub-04-11-10)
+
+---
+
+## 需求信号（未被满足的痛点）
+
+- **痛点**：赞助合作行业仍依赖高佣金中介和低效冷邮件。→ **产品形态**：连接品牌与活动方的标准化自助式赞助匹配平台。
+- **痛点**：驾校教练排班冲突频繁。→ **产品形态**：排班优化算法 + 学员自助约课小程序。
+- **痛点**：婚庆策划师同时管理多个客户需求混乱。→ **产品形态**：客户需求时间线 + 预算跟踪 + 供应商沟通看板。
+
+---
+
+## 趋势观察
+
+1. **&quot;API-first&quot;的产品思路让独立开发者能快速对接生态**。
+2. **&quot;微订阅 $3–8/月&quot;产品密度增加，薄利多销逻辑抬头**。
+3. **&quot;会员制社区&quot;替代传统 SaaS 订阅成为新型变现方式**。
+
+---
+
+## 今日总结
+
+短视频内容复用（长视频切片/音频转文字卡片）需求持续增长。建议：找 5 个 1 万粉以下的 YouTuber，问他们每周花多少时间做社媒素材。
+
+---
+
+## 原文索引（Top 高分）
+
+| # | 分数 | 来源 | 标题 | 互动 |
+|---|------|------|------|------|
+| 1 | 21.57 | reddit/r/Entrepreneur | [小型搬家公司&quot;报价 + 调度 + 客评&quot;SaaS，$69/月](https://www.reddit.com/reddit/r/Entrepreneur/comments/stub-04-11-01) | 24↑ / 1💬 |
+| 2 | 20.23 | reddit/r/SideProject | [AI 把手写白板照片转成结构化笔记 iOS App，买断 $9.99](https://www.reddit.com/reddit/r/SideProject/comments/stub-04-11-02) | 16↑ / 52💬 |
+| 3 | 20.03 | reddit/r/smallbusiness | [Chrome 扩展：把任意表格网页导出为 Airtable/Notion，$12/年](https://www.reddit.com/reddit/r/smallbusiness/comments/stub-04-11-03) | 56↑ / 25💬 |
+| 4 | 18.94 | hackernews | [独立教师&quot;作业批改 + AI 评语建议&quot;工具，$15/月](https://news.ycombinator.com/item?id=stub-04-11-04) | 34↑ / 29💬 |
+| 5 | 18.28 | reddit/r/freelance | [面向独立保险代理的&quot;客户生日/续保提醒&quot;工具，$19/月](https://www.reddit.com/reddit/r/freelance/comments/stub-04-11-05) | 56↑ / 1💬 |
+| 6 | 14.78 | reddit/r/SaaS | [为印度家庭量身打造的家庭开支追踪器，₹199/月](https://www.reddit.com/reddit/r/SaaS/comments/stub-04-11-06) | 37↑ / 47💬 |
+| 7 | 17.25 | reddit/r/microsaas | [面向婚庆策划的&quot;客户需求收集 + 预算跟踪&quot;，$39/月](https://www.reddit.com/reddit/r/microsaas/comments/stub-04-11-07) | 3↑ / 34💬 |
+| 8 | 12.14 | v2ex/create | [从自身需求出发为小型现场服务企业开发的管理软件](https://www.v2ex.com/t/stub-04-11-08) | 33↑ / 40💬 |
+| 9 | 12.37 | reddit/r/indiehackers | [给小型洗车店做&quot;会员 + 预约 + 营销&quot;SaaS，$49/月](https://www.indiehackers.com/stub-04-11-09) | 30↑ / 8💬 |
+| 10 | 13.27 | reddit/r/EntrepreneurRideAlong | [面向驾校的&quot;学员练车预约 + 教练评分&quot;SaaS，¥199/月](https://www.reddit.com/reddit/r/EntrepreneurRideAlong/comments/stub-04-11-10) | 18↑ / 31💬 |
+| 11 | 8.39 | reddit/r/startups | [I built a 1000+ directory list while growing SaaS](https://www.reddit.com/reddit/r/startups/comments/stub-04-11-11) | 12↑ / 48💬 |
+| 12 | 7.87 | indiehackers | [My side project made $130k in 30 days](https://www.indiehackers.com/stub-04-11-12) | 30↑ / 57💬 |
+| 13 | 7.09 | reddit/r/SaaS | [I launched my SaaS 1 week ago, 0 paying customers](https://www.reddit.com/reddit/r/SaaS/comments/stub-04-11-13) | 19↑ / 49💬 |
+| 14 | 9.29 | hackernews | [Built a list of 1000+ vetted directories](https://news.ycombinator.com/item?id=stub-04-11-14) | 59↑ / 55💬 |
+| 15 | 7.47 | v2ex/create | [SaaS founders, will buy you lunch for a chat](https://www.v2ex.com/t/stub-04-11-15) | 28↑ / 51💬 |
+
+---
+
+*本报告由 Auto Report Portal 自动生成，仅供一人公司/独立开发者选题参考。*
+</script>
+<script src="https://cdn.jsdelivr.net/npm/marked@15/marked.min.js"></script>
+<script>
+const md = document.getElementById('raw-md').textContent;
+document.getElementById('content').innerHTML = marked.parse(md);
+</script>
+</body>
+</html>

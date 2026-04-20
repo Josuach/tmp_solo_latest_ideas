@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-03-13 - 灵感日报</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f8f9fa; color: #1a1a2e; line-height: 1.7;
+}
+a { color: #4361ee; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #fff; padding: 1.5rem 0; margin-bottom: 2rem;
+}
+header .container { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+header h1 { font-size: 1.5rem; font-weight: 600; }
+header a { color: #e2e8f0; }
+header a:hover { color: #fff; }
+.card {
+    background: #fff; border-radius: 12px; padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.content h1 { font-size: 1.6rem; margin: 1.5rem 0 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+.content h2 { font-size: 1.3rem; margin: 1.8rem 0 0.8rem; color: #1a1a2e; }
+.content h3 { font-size: 1.1rem; margin: 1.2rem 0 0.6rem; }
+.content p { margin: 0.8rem 0; }
+.content ul, .content ol { margin: 0.8rem 0 0.8rem 1.5rem; }
+.content li { margin: 0.3rem 0; }
+.content strong { color: #0f3460; }
+.content blockquote {
+    border-left: 4px solid #4361ee; background: #f0f4ff;
+    padding: 0.8rem 1.2rem; margin: 1rem 0; border-radius: 0 8px 8px 0;
+    font-size: 0.9rem; color: #555;
+}
+.content hr { border: none; border-top: 1px solid #e2e8f0; margin: 1.5rem 0; }
+.content table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+.content th, .content td { border: 1px solid #e2e8f0; padding: 0.5rem 0.8rem; text-align: left; }
+.content th { background: #f0f4ff; font-weight: 600; }
+.content tr:hover { background: #fafbff; }
+.content code { background: #f0f4ff; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.88em; }
+.content a { color: #4361ee; }
+.nav-sidebar {
+    position: fixed; top: 0; right: 0; width: 200px; height: 100vh;
+    overflow-y: auto; background: #fff; border-left: 1px solid #e2e8f0;
+    padding: 1rem 0.5rem; font-size: 0.8rem; z-index: 10;
+    transform: translateX(100%); transition: transform 0.3s;
+}
+.nav-sidebar.open { transform: translateX(0); }
+.nav-sidebar a { display: block; padding: 0.2rem 0.5rem; color: #555; }
+.nav-sidebar a:hover { background: #f0f4ff; border-radius: 4px; }
+.nav-toggle {
+    position: fixed; top: 50%; right: 0; transform: translateY(-50%);
+    background: #1a1a2e; color: #fff; border: none; padding: 0.5rem 0.3rem;
+    border-radius: 8px 0 0 8px; cursor: pointer; z-index: 11;
+    font-size: 0.8rem; writing-mode: vertical-rl;
+}
+@media (max-width: 768px) {
+    .container { padding: 1rem; }
+    .card { padding: 1.2rem; }
+    .content table { font-size: 0.8rem; display: block; overflow-x: auto; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+    <h1>一人公司灵感日报</h1>
+    <a href="index.html">&larr; 返回列表</a>
+  </div>
+</header>
+<div class="container">
+  <div class="card">
+    <div class="content" id="content"></div>
+  </div>
+</div>
+<button class="nav-toggle" onclick="document.querySelector('.nav-sidebar').classList.toggle('open')">日期</button>
+<nav class="nav-sidebar"><a href="2026-04-20.html">2026-04-20</a>
+<a href="2026-04-19.html">2026-04-19</a>
+<a href="2026-04-18.html">2026-04-18</a>
+<a href="2026-04-17.html">2026-04-17</a>
+<a href="2026-04-16.html">2026-04-16</a>
+<a href="2026-04-15.html">2026-04-15</a>
+<a href="2026-04-14.html">2026-04-14</a>
+<a href="2026-04-13.html">2026-04-13</a>
+<a href="2026-04-12.html">2026-04-12</a>
+<a href="2026-04-11.html">2026-04-11</a>
+<a href="2026-04-10.html">2026-04-10</a>
+<a href="2026-04-09.html">2026-04-09</a>
+<a href="2026-04-08.html">2026-04-08</a>
+<a href="2026-04-07.html">2026-04-07</a>
+<a href="2026-04-06.html">2026-04-06</a>
+<a href="2026-04-05.html">2026-04-05</a>
+<a href="2026-04-04.html">2026-04-04</a>
+<a href="2026-04-03.html">2026-04-03</a>
+<a href="2026-04-02.html">2026-04-02</a>
+<a href="2026-04-01.html">2026-04-01</a>
+<a href="2026-03-31.html">2026-03-31</a>
+<a href="2026-03-30.html">2026-03-30</a>
+<a href="2026-03-29.html">2026-03-29</a>
+<a href="2026-03-28.html">2026-03-28</a>
+<a href="2026-03-27.html">2026-03-27</a>
+<a href="2026-03-26.html">2026-03-26</a>
+<a href="2026-03-25.html">2026-03-25</a>
+<a href="2026-03-24.html">2026-03-24</a>
+<a href="2026-03-23.html">2026-03-23</a>
+<a href="2026-03-22.html">2026-03-22</a>
+<a href="2026-03-21.html">2026-03-21</a>
+<a href="2026-03-20.html">2026-03-20</a>
+<a href="2026-03-19.html">2026-03-19</a>
+<a href="2026-03-18.html">2026-03-18</a>
+<a href="2026-03-17.html">2026-03-17</a>
+<a href="2026-03-16.html">2026-03-16</a>
+<a href="2026-03-15.html">2026-03-15</a>
+<a href="2026-03-14.html">2026-03-14</a>
+<a href="2026-03-13.html">2026-03-13</a>
+<a href="2026-03-12.html">2026-03-12</a>
+<a href="2026-03-11.html">2026-03-11</a>
+<a href="2026-03-10.html">2026-03-10</a>
+<a href="2026-03-09.html">2026-03-09</a>
+<a href="2026-03-08.html">2026-03-08</a>
+<a href="2026-03-07.html">2026-03-07</a>
+<a href="2026-03-06.html">2026-03-06</a>
+<a href="2026-03-05.html">2026-03-05</a>
+<a href="2026-03-04.html">2026-03-04</a>
+<a href="2026-03-03.html">2026-03-03</a>
+<a href="2026-03-02.html">2026-03-02</a>
+<a href="2026-03-01.html">2026-03-01</a>
+<a href="2026-02-28.html">2026-02-28</a>
+<a href="2026-02-27.html">2026-02-27</a>
+<a href="2026-02-26.html">2026-02-26</a>
+<a href="2026-02-25.html">2026-02-25</a>
+<a href="2026-02-24.html">2026-02-24</a>
+<a href="2026-02-23.html">2026-02-23</a>
+<a href="2026-02-22.html">2026-02-22</a>
+<a href="2026-02-21.html">2026-02-21</a>
+<a href="2026-02-20.html">2026-02-20</a></nav>
+<script id="raw-md" type="text/markdown"># 一人公司灵感日报 · 2026-03-13
+
+&gt; 生成时间：2026-03-13 21:16 北京时间
+&gt; 数据源：hn_show(90) · hn_ask(41) · hn_story(3) · r_sideproject(62) · r_saas(68) · r_indiehackers(5) · r_entrepreneur(7) · r_microsaas(55) · r_rideAlong(13) · r_smallbusiness(48) · r_startups(19) · r_freelance(0) · v2ex_create(8) · v2ex_ideas(4) · producthunt(0)
+&gt; 窗口：过去 24h · 扫描 459 条 · 保留 89 条（score ≥ 3.0）
+&gt; AI 分析：deepseek-chat
+
+---
+
+## 一人公司机会 Top 10
+
+- **[1]** 面向 Etsy 卖家的&quot;店铺 SEO 诊断报告&quot;，$29/次 — *Etsy 生态诊断服务*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-01)
+- **[2]** 牙医诊所用&quot;无到场率追踪 + 自动补位&quot;系统，$149/月 — *真实节约 $2k/月空位损失，客单价高*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-02)
+- **[3]** 面向小型酒店的&quot;直订引擎 + 渠道比价&quot;，$59/月 — *帮酒店脱离 OTA 佣金绑架*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-03)
+- **[4]** 给兽医诊所做&quot;疫苗提醒 + 病历管理&quot;SaaS，$49/月 — *宠物医疗细分*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-04)
+- **[5]** iOS 旅行照片自动拼成 Instagram 9 宫格，买断 $5.99 — *社媒营销转化*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-05)
+- **[6]** 面向独立音乐人的&quot;歌词版权登记 + 分发&quot;平台，每曲 $9 — *合规分发一站式*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-06)
+- **[7]** AI 把手写白板照片转成结构化笔记 iOS App，买断 $9.99 — *会议效率工具*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-07)
+- **[8]** 面向独立讲师的&quot;Zoom 课堂自动出勤 + 作业分发&quot;SaaS，$29/月 — *教培细分合规低门槛*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-08)
+- **[9]** 给瑜伽/健身工作室的会员卡 + 预约小程序，买断 $299 — *一次实施持续服务*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-09)
+- **[10]** 从自身需求出发为小型现场服务企业开发的管理软件 — *源于真实业务痛点经过自身验证*。[原文](https://www.reddit.com/r/microsaas/comments/stub-03-13-10)
+
+---
+
+## 需求信号（未被满足的痛点）
+
+- **痛点**：自由职业者每月做报价单耗费太多时间。→ **产品形态**：模板 + 变量 + 电子签名 + 自动税费计算。
+- **痛点**：自媒体多平台发布格式不统一。→ **产品形态**：一次编辑 → 多平台格式适配 + 一键发布。
+- **痛点**：独立会计师处理客户 CSV 时重复手动清洗。→ **产品形态**：针对特定会计软件格式的 one-click 规范化工具。
+- **痛点**：独立开发者不知道用户在哪里流失。→ **产品形态**：简化版漏斗分析工具，5 分钟接入。
+
+---
+
+## 趋势观察
+
+1. **&quot;蓝领工种数字化&quot;（电工/水管工/搬家公司）是独立开发者被忽视的蓝海**。
+2. **&quot;API-first&quot;的产品思路让独立开发者能快速对接生态**。
+3. **&quot;远程办公效率工具&quot;从大厂溢出到自由职业者**。
+
+---
+
+## 今日总结
+
+今天的信号指向&quot;内容复用&quot;：把 1 份内容变成 10 种格式。行动建议：找一个你关注的创作者，问他发布后最烦的 3 件事。
+
+---
+
+## 原文索引（Top 高分）
+
+| # | 分数 | 来源 | 标题 | 互动 |
+|---|------|------|------|------|
+| 1 | 20.27 | hackernews | [面向 Etsy 卖家的&quot;店铺 SEO 诊断报告&quot;，$29/次](https://news.ycombinator.com/item?id=stub-03-13-01) | 44↑ / 45💬 |
+| 2 | 18.94 | reddit/r/freelance | [牙医诊所用&quot;无到场率追踪 + 自动补位&quot;系统，$149/月](https://www.reddit.com/reddit/r/freelance/comments/stub-03-13-02) | 37↑ / 16💬 |
+| 3 | 18.44 | reddit/r/EntrepreneurRideAlong | [面向小型酒店的&quot;直订引擎 + 渠道比价&quot;，$59/月](https://www.reddit.com/reddit/r/EntrepreneurRideAlong/comments/stub-03-13-03) | 9↑ / 23💬 |
+| 4 | 17.96 | reddit/r/SideProject | [给兽医诊所做&quot;疫苗提醒 + 病历管理&quot;SaaS，$49/月](https://www.reddit.com/reddit/r/SideProject/comments/stub-03-13-04) | 46↑ / 31💬 |
+| 5 | 16.49 | reddit/r/smallbusiness | [iOS 旅行照片自动拼成 Instagram 9 宫格，买断 $5.99](https://www.reddit.com/reddit/r/smallbusiness/comments/stub-03-13-05) | 32↑ / 39💬 |
+| 6 | 14.56 | indiehackers | [面向独立音乐人的&quot;歌词版权登记 + 分发&quot;平台，每曲 $9](https://www.indiehackers.com/stub-03-13-06) | 18↑ / 48💬 |
+| 7 | 15.78 | reddit/r/indiehackers | [AI 把手写白板照片转成结构化笔记 iOS App，买断 $9.99](https://www.indiehackers.com/stub-03-13-07) | 22↑ / 22💬 |
+| 8 | 13.95 | reddit/r/Entrepreneur | [面向独立讲师的&quot;Zoom 课堂自动出勤 + 作业分发&quot;SaaS，$29/月](https://www.reddit.com/reddit/r/Entrepreneur/comments/stub-03-13-08) | 5↑ / 54💬 |
+| 9 | 11.16 | v2ex/create | [给瑜伽/健身工作室的会员卡 + 预约小程序，买断 $299](https://www.v2ex.com/t/stub-03-13-09) | 22↑ / 41💬 |
+| 10 | 8.67 | reddit/r/microsaas | [从自身需求出发为小型现场服务企业开发的管理软件](https://www.reddit.com/reddit/r/microsaas/comments/stub-03-13-10) | 65↑ / 39💬 |
+| 11 | 7.49 | reddit/r/SaaS | [Why I killed my $2k MRR product on purpose](https://www.reddit.com/reddit/r/SaaS/comments/stub-03-13-11) | 37↑ / 37💬 |
+| 12 | 7.92 | reddit/r/startups | [Ask HN: who else hates Stripe tax reports?](https://www.reddit.com/reddit/r/startups/comments/stub-03-13-12) | 10↑ / 50💬 |
+| 13 | 9.36 | reddit/r/microsaas | [Ask HN: best EU-friendly Stripe alternatives?](https://www.reddit.com/reddit/r/microsaas/comments/stub-03-13-13) | 63↑ / 40💬 |
+
+---
+
+*本报告由 Auto Report Portal 自动生成，仅供一人公司/独立开发者选题参考。*
+</script>
+<script src="https://cdn.jsdelivr.net/npm/marked@15/marked.min.js"></script>
+<script>
+const md = document.getElementById('raw-md').textContent;
+document.getElementById('content').innerHTML = marked.parse(md);
+</script>
+</body>
+</html>
